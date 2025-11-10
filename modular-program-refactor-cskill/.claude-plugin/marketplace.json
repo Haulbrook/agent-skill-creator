@@ -1,0 +1,194 @@
+{
+  "version": "1.0.0",
+  "name": "modular-program-refactor-cskill",
+  "display_name": "Modular Program Refactor Skill",
+  "description": "Specialized skill for deep architectural analysis and modular reconstruction of existing programs. Analyzes monolithic or halfway-built codebases to understand component relationships, dependencies, and semantic purpose. Intelligently decomposes programs into clean modular architectures with central nervous system design patterns. Goes beyond simple refactoring by understanding WHY components exist and reconstructing with intentional design. Works seamlessly with Forward Thinker Skill to evolve architecture while maintaining functionality. Ideal for legacy code modernization, architectural migrations, plugin system creation, and preparing codebases for scale. Supports Python, JavaScript, TypeScript, Java, Go, Rust, and other major languages.",
+
+  "plugins": [
+    {
+      "name": "modular-program-refactor",
+      "type": "skill",
+      "source": "./",
+      "skills": [
+        "./SKILL.md"
+      ]
+    }
+  ],
+
+  "activation": {
+    "keywords": [
+      "modular architecture",
+      "refactor into modules",
+      "break down monolithic",
+      "decompose application",
+      "restructure program",
+      "modularize codebase",
+      "architectural refactoring",
+      "component decomposition",
+      "decouple components",
+      "central nervous system",
+      "plugin architecture design",
+      "hexagonal architecture",
+      "layered architecture",
+      "clean architecture",
+      "microservices decomposition",
+      "split monolith",
+      "break apart application",
+      "separate concerns",
+      "module boundaries",
+      "dependency inversion",
+      "interface segregation",
+      "single responsibility refactor",
+      "architectural analysis",
+      "codebase restructuring",
+      "legacy code modernization",
+      "halfway built project",
+      "messy code organization",
+      "spaghetti code cleanup",
+      "tight coupling issues",
+      "circular dependencies",
+      "organize into layers",
+      "domain driven design",
+      "bounded contexts",
+      "service boundaries",
+      "component isolation",
+      "modular design patterns",
+      "architectural migration",
+      "monolith to microservices",
+      "MVC to hexagonal",
+      "procedural to object-oriented",
+      "extensibility architecture",
+      "plugin system creation",
+      "add plugin support",
+      "modular extension system",
+      "third-party integrations",
+      "prepare for scaling",
+      "team-friendly architecture",
+      "maintainable structure",
+      "testable components",
+      "separation of layers",
+      "business logic extraction",
+      "infrastructure separation",
+      "presentation layer isolation",
+      "data access layer",
+      "application service layer",
+      "domain model layer",
+      "dependency graph analysis",
+      "coupling metrics",
+      "cohesion analysis",
+      "code smell detection",
+      "architectural patterns",
+      "anti-pattern detection",
+      "semantic code analysis",
+      "responsibility identification",
+      "interface discovery",
+      "module scaffolding",
+      "architectural vision",
+      "codebase evolution",
+      "forward thinking refactor",
+      "innovative architecture",
+      "modern patterns",
+      "architectural debt",
+      "technical debt refactoring",
+      "prototype to production",
+      "proof of concept cleanup",
+      "MVP restructuring"
+    ],
+
+    "patterns": [
+      "refactor .+ into (?:a )?modular",
+      "break (?:down|apart|up) .+ (?:monolith|application|codebase|program)",
+      "restructure .+ into (?:modules|components|layers)",
+      "decompose .+ into (?:modular|clean)",
+      "analyze (?:and|&) (?:refactor|modularize|restructure)",
+      "modularize .+ (?:codebase|application|program|code)",
+      "transform .+ into (?:modular|layered|hexagonal|microservices)",
+      "convert .+ to (?:modular|clean|hexagonal) architecture",
+      "organize .+ into (?:modules|layers|components)",
+      "separate .+ into (?:modules|components|services)",
+      "decouple .+ (?:components|modules|services)",
+      "apply (?:clean|hexagonal|layered|modular) architecture",
+      "create (?:a )?plugin (?:architecture|system)",
+      "make .+ (?:modular|extensible|maintainable)",
+      "split .+ into (?:modules|components|microservices)",
+      "clean up .+ (?:architecture|structure|organization)",
+      "fix .+ (?:architectural|structural) (?:issues|problems)",
+      "improve .+ (?:modularity|maintainability|structure)",
+      "work with forward thinker to (?:refactor|improve|evolve)",
+      "prepare .+ for (?:scaling|production|team development)"
+    ],
+
+    "when_not_to_use": [
+      "simple syntax cleanup or formatting",
+      "debugging or bug fixing",
+      "performance optimization without architectural changes",
+      "from-scratch development with no existing code",
+      "minor local refactoring of individual functions",
+      "code generation without existing codebase",
+      "documentation writing",
+      "testing or test generation only",
+      "dependency updates or package management",
+      "code review without refactoring"
+    ],
+
+    "confidence_threshold": 0.7,
+
+    "priority": "high",
+
+    "context_requirements": {
+      "needs_codebase": true,
+      "needs_file_access": true,
+      "needs_analysis_tools": true
+    }
+  },
+
+  "capabilities": [
+    "Deep architectural analysis and pattern recognition",
+    "Dependency graph construction and visualization",
+    "Semantic code understanding and purpose inference",
+    "Modular architecture design and planning",
+    "Central nervous system architecture creation",
+    "Layer separation and bounded context identification",
+    "Interface design and dependency inversion",
+    "Plugin architecture and extensibility patterns",
+    "Legacy code modernization strategies",
+    "Forward-thinking collaboration and handoff",
+    "Functional equivalence validation",
+    "Migration planning and incremental refactoring",
+    "Multi-language support (Python, JS, Java, Go, etc.)",
+    "Framework-aware refactoring",
+    "Technical debt assessment"
+  ],
+
+  "author": "Claude AI Assistant",
+  "license": "MIT",
+  "tags": [
+    "refactoring",
+    "architecture",
+    "modular-design",
+    "code-analysis",
+    "modernization",
+    "restructuring",
+    "clean-architecture",
+    "design-patterns",
+    "forward-thinking",
+    "collaboration"
+  ],
+
+  "requirements": {
+    "python_version": ">=3.8",
+    "dependencies_file": "requirements.txt"
+  },
+
+  "integration": {
+    "works_with": [
+      "forward-thinker-skill"
+    ],
+    "handoff_triggers": [
+      "enhancement opportunities identified",
+      "user requests innovative solutions",
+      "user mentions forward thinking",
+      "architectural evolution needed"
+    ]
+  }
+}

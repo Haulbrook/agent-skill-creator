@@ -1,0 +1,46 @@
+# Modular Program Refactor Skill - Dependencies
+
+# Core dependencies for static analysis
+ast-comments>=1.1.2  # Enhanced AST parsing with comment preservation
+
+# Code analysis and metrics
+radon>=6.0.1  # Code complexity metrics
+lizard>=1.17.10  # Multi-language complexity analyzer
+pyflakes>=3.1.0  # Static code analysis
+
+# Dependency graph analysis
+networkx>=3.1  # Graph algorithms for dependency analysis
+pydot>=1.4.2  # Graph visualization
+
+# Language-specific parsers
+esprima>=4.0.1  # JavaScript/TypeScript parser
+javalang>=0.13.0  # Java parser (for Java analysis)
+
+# Type checking and analysis
+typing-extensions>=4.8.0  # Enhanced type hints
+mypy>=1.7.0  # Optional static type checking
+
+# File operations and utilities
+pathlib2>=2.3.7; python_version < '3.4'  # Backport for older Python
+dataclasses>=0.6; python_version < '3.7'  # Backport for Python 3.6
+
+# Logging and monitoring
+colorlog>=6.7.0  # Colored logging output
+
+# Testing and validation
+pytest>=7.4.3  # Testing framework
+pytest-cov>=4.1.0  # Coverage reporting
+
+# Documentation generation
+markdown>=3.5.1  # Markdown processing
+jinja2>=3.1.2  # Template engine for code generation
+
+# Optional: Performance profiling
+memory-profiler>=0.61.0  # Memory usage analysis
+
+# Optional: Advanced pattern recognition
+scikit-learn>=1.3.2  # Machine learning for pattern detection (optional)
+
+# Optional: Code formatting
+black>=23.12.0  # Code formatter (optional)
+autopep8>=2.0.4  # PEP 8 formatter (optional)
