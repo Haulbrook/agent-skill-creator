@@ -1,0 +1,26 @@
+# Forward-Thinking Architect Skill - Dependencies
+
+# Core dependencies
+# (Currently uses only Python standard library for maximum portability)
+
+# Optional dependencies for enhanced analysis
+# Uncomment if needed:
+
+# ast-based analysis
+# astroid>=2.15.0
+
+# Code metrics
+# radon>=5.1.0
+# pylint>=2.17.0
+
+# Complexity analysis
+# mccabe>=0.7.0
+
+# Dependency analysis
+# pydeps>=1.12.0
+
+# Documentation analysis
+# pydocstyle>=6.3.0
+
+# Type checking analysis
+# mypy>=1.3.0
