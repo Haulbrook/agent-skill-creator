@@ -1,0 +1,96 @@
+{
+  "name": "apple-overseer-cskill",
+  "owner": {
+    "name": "Apple Overseer Team",
+    "email": "overseer@example.com"
+  },
+  "metadata": {
+    "description": "Multi-level quality control checkpoint system for Apple platform development (iOS, macOS, iPadOS)",
+    "version": "1.0.0",
+    "created": "2025-11-12",
+    "language": "en-US",
+    "features": [
+      "multi-level-validation",
+      "platform-specific-checks",
+      "cross-platform-testing",
+      "quality-assurance",
+      "approval-workflow"
+    ]
+  },
+  "plugins": [{
+    "name": "apple-overseer",
+    "description": "Use this skill when you need to validate and quality-check Apple platform projects through multiple checkpoint levels. Like a multi-story building with floor managers, each level validates specific aspects (foundation, platform-specific requirements, integration, final QA) before giving approval to proceed. Perfect for ensuring iOS, macOS, and iPadOS projects meet quality standards at every stage of development.",
+    "source": "./",
+    "strict": false,
+    "skills": ["./"]
+  }],
+  "compatibility": {
+    "minimum_claude_version": "1.0.0",
+    "backward_compatible": true
+  },
+  "templates": {
+    "enabled": false
+  },
+  "capabilities": {
+    "single_agent_creation": false,
+    "multi_agent_suite": false,
+    "batch_creation": false,
+    "quality_validation": true,
+    "checkpoint_system": true
+  },
+  "activation": {
+    "keywords": [
+      "apple overseer",
+      "checkpoint validation",
+      "validate apple project",
+      "multi-level check",
+      "platform approval",
+      "ios macOS validation",
+      "quality checkpoint",
+      "stamp of approval"
+    ],
+    "patterns": [
+      "(?i)(validate|check|verify)\\s+.*\\s+(ios|macos|ipados|apple)\\s+(project|build|app)",
+      "(?i)(overseer|checkpoint|quality)\\s+(check|validation|approval)",
+      "(?i)multi[- ]?level\\s+(validation|check|quality)",
+      "(?i)(stamp\\s+of\\s+approval|approve|validate)\\s+.*\\s+(ios|macos|ipados)",
+      "(?i)platform\\s+(validation|check|approval|readiness)"
+    ]
+  },
+  "usage": {
+    "example": "Run apple overseer validation on my iOS project at ./MyApp",
+    "input_types": [
+      "Project directory path",
+      "Specific platform target (iOS, macOS, iPadOS, or all)",
+      "Checkpoint level to start from (optional)"
+    ],
+    "output_types": [
+      "Detailed checkpoint reports",
+      "Approval status per level",
+      "Issue identification and recommendations",
+      "Final quality certification"
+    ],
+    "when_to_use": [
+      "Before releasing an Apple platform application",
+      "When validating cross-platform compatibility",
+      "During code review processes",
+      "Before submitting to App Store",
+      "When ensuring quality standards are met",
+      "After major refactoring or feature additions"
+    ],
+    "when_not_to_use": [
+      "For non-Apple platform projects (Android, Web, etc.)",
+      "During initial development/prototyping phase",
+      "For quick proof-of-concept code",
+      "When you just need to run unit tests",
+      "For simple script or tool projects"
+    ]
+  },
+  "test_queries": [
+    "Validate my iOS app using apple overseer",
+    "Run checkpoint validation on my macOS project",
+    "I need stamp of approval for my iPadOS app",
+    "Multi-level quality check for my Apple project",
+    "Run apple overseer on ./MyProject for all platforms"
+  ]
+}

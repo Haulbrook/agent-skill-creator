@@ -1,0 +1,6 @@
+# Apple Overseer - Requirements
+# No external dependencies required
+# Uses Python standard library only
+
+# Python version requirement
+# python>=3.8
