@@ -1,0 +1,206 @@
+{
+  "name": "personalized-job-search-agent-cskill",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Intelligent job search agent that acts as your personal recruitment service. Searches, compares, analyzes, and applies for jobs based on your unique profile, skills, preferences, and career goals. Integrates with multiple job boards (LinkedIn, Indeed, Glassdoor), scores opportunities using AI-powered matching, tracks applications, and automates the application process.",
+  "author": "Agent-Skill-Creator",
+  "keywords": [
+    "job-search",
+    "job-hunting",
+    "career",
+    "recruitment",
+    "employment",
+    "job-matching",
+    "job-application",
+    "resume",
+    "cv",
+    "career-coach",
+    "job-board",
+    "linkedin",
+    "indeed",
+    "glassdoor",
+    "personalized-search",
+    "job-analysis",
+    "application-tracking",
+    "ats",
+    "job-comparison",
+    "career-automation"
+  ],
+  "activation": {
+    "keywords": [
+      "find jobs for me",
+      "search for jobs",
+      "job hunt",
+      "looking for work",
+      "find employment",
+      "job search agent",
+      "apply for jobs",
+      "job opportunities",
+      "career search",
+      "find positions",
+      "job matching",
+      "personalized job search",
+      "automated job search",
+      "job application bot",
+      "help me find a job",
+      "search job boards",
+      "compare job offers",
+      "analyze job opportunities",
+      "track job applications",
+      "best jobs for me",
+      "jobs that match my skills",
+      "find jobs based on",
+      "job recommendations",
+      "career opportunities",
+      "employment search"
+    ],
+    "patterns": [
+      "(?i)(find|search|look\\s+for|get|discover)\\s+(me\\s+)?(a\\s+)?(job|jobs|position|positions|employment|work|opportunities)",
+      "(?i)(apply|submit)\\s+(for\\s+)?(jobs|positions|opportunities)",
+      "(?i)(job|career|employment)\\s+(search|hunt|matching|finder|agent|bot)",
+      "(?i)(compare|analyze|evaluate)\\s+(job\\s+)?(offers|opportunities|positions)",
+      "(?i)(personalized|automated|intelligent)\\s+job\\s+search",
+      "(?i)(track|manage)\\s+job\\s+applications",
+      "(?i)jobs\\s+(that\\s+)?(match|fit|suit)\\s+(my\\s+)?(skills|profile|experience)",
+      "(?i)help\\s+(me\\s+)?find\\s+(a\\s+)?(job|position|work|employment)",
+      "(?i)(job|career)\\s+recommendations",
+      "(?i)best\\s+jobs\\s+for\\s+me"
+    ]
+  },
+  "capabilities": [
+    "multi-platform-job-search",
+    "linkedin-integration",
+    "indeed-integration",
+    "glassdoor-integration",
+    "user-profile-management",
+    "skills-matching",
+    "salary-analysis",
+    "job-scoring",
+    "ai-powered-matching",
+    "application-automation",
+    "resume-parsing",
+    "cover-letter-generation",
+    "application-tracking",
+    "job-comparison",
+    "notifications-alerts",
+    "interview-scheduling",
+    "offer-analysis"
+  ],
+  "supported_platforms": [
+    "linkedin",
+    "indeed",
+    "glassdoor",
+    "ziprecruiter",
+    "monster",
+    "careerbuilder",
+    "simplyhired",
+    "dice",
+    "github-jobs",
+    "stackoverflow-jobs"
+  ],
+  "dependencies": {
+    "python": ">=3.9",
+    "pip": [
+      "requests>=2.31.0",
+      "beautifulsoup4>=4.12.0",
+      "selenium>=4.15.0",
+      "python-dotenv>=1.0.0",
+      "anthropic>=0.18.0",
+      "pandas>=2.1.0",
+      "numpy>=1.24.0",
+      "scikit-learn>=1.3.0",
+      "openai>=1.0.0",
+      "linkedin-api>=2.0.0",
+      "indeed-api>=1.0.0",
+      "PyPDF2>=3.0.0",
+      "python-docx>=1.0.0",
+      "schedule>=1.2.0",
+      "tqdm>=4.66.0"
+    ],
+    "system": [
+      "chrome",
+      "chromedriver"
+    ]
+  },
+  "features": [
+    "personalized-profile-creation",
+    "multi-board-search",
+    "intelligent-job-matching",
+    "automated-applications",
+    "salary-negotiation-insights",
+    "company-research",
+    "skill-gap-analysis",
+    "career-path-recommendations",
+    "application-status-tracking",
+    "interview-preparation",
+    "offer-comparison",
+    "market-analysis"
+  ],
+  "usage": {
+    "examples": [
+      "Find me software engineering jobs in San Francisco with 100k+ salary",
+      "Search for remote Python developer positions that match my skills",
+      "Apply for all suitable data science jobs on LinkedIn",
+      "Compare these three job offers and recommend the best one",
+      "Track all my job applications and show status",
+      "What are the best jobs for me based on my profile?",
+      "Find jobs similar to my current role but with better pay",
+      "Search for entry-level positions in machine learning",
+      "Analyze this job description and tell me if it's a good fit",
+      "Generate a cover letter for this position"
+    ],
+    "input_types": [
+      "user_preferences",
+      "skills_list",
+      "resume",
+      "job_criteria",
+      "location",
+      "salary_range",
+      "experience_level",
+      "job_url"
+    ],
+    "output_types": [
+      "job_listings",
+      "match_scores",
+      "application_status",
+      "recommendations",
+      "comparison_reports",
+      "cover_letters",
+      "market_insights"
+    ]
+  },
+  "metadata": {
+    "category": "career-automation",
+    "subcategory": "job-search",
+    "complexity": "high",
+    "estimated_lines": 3500,
+    "created_by": "agent-skill-creator",
+    "architecture": "complex-skill",
+    "agentdb_enabled": true,
+    "learning_enabled": true,
+    "privacy_focused": true,
+    "data_encryption": true
+  },
+  "configuration": {
+    "storage": {
+      "user_profile": "assets/user_profile.json",
+      "job_database": "assets/jobs_database.json",
+      "applications": "assets/applications.json",
+      "preferences": "assets/preferences.json"
+    },
+    "search_settings": {
+      "max_results_per_search": 100,
+      "search_frequency": "daily",
+      "auto_apply": false,
+      "notification_enabled": true
+    },
+    "matching_algorithm": {
+      "skills_weight": 0.35,
+      "salary_weight": 0.25,
+      "location_weight": 0.15,
+      "company_weight": 0.10,
+      "benefits_weight": 0.10,
+      "culture_weight": 0.05
+    }
+  }
+}
