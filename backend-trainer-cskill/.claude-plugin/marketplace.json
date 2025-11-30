@@ -1,0 +1,217 @@
+{
+  "name": "backend-trainer-cskill",
+  "version": "1.0.0",
+  "description": "Backend development personal trainer that analyzes, validates, and guides code architecture from the inside. Specializes in API design, database schemas, business logic, performance optimization, and security. Designed to work hand-in-hand with frontend agents for full-stack compatibility.",
+
+  "plugins": [{
+    "name": "backend-trainer-plugin",
+    "source": "./",
+    "strict": false,
+    "skills": ["./"]
+  }],
+
+  "activation": {
+    "keywords": [
+      "review my backend",
+      "analyze backend code",
+      "backend architecture review",
+      "check my api",
+      "review api design",
+      "analyze api endpoints",
+      "database schema review",
+      "review database design",
+      "check my database",
+      "analyze business logic",
+      "review business rules",
+      "backend performance",
+      "optimize backend",
+      "backend security review",
+      "check backend security",
+      "api security audit",
+      "review my routes",
+      "analyze controllers",
+      "check my models",
+      "review data layer",
+      "analyze service layer",
+      "check repository pattern",
+      "review backend structure",
+      "backend code quality",
+      "analyze server code",
+      "review server logic",
+      "check authentication",
+      "review authorization",
+      "analyze middleware",
+      "check error handling",
+      "review validation logic",
+      "analyze data flow",
+      "backend best practices",
+      "improve backend",
+      "refactor backend",
+      "backend optimization",
+      "api optimization",
+      "database optimization",
+      "query optimization",
+      "review my queries",
+      "analyze sql queries",
+      "check orm usage",
+      "review migrations",
+      "analyze database indexes",
+      "check caching strategy",
+      "review rate limiting",
+      "analyze logging",
+      "check monitoring",
+      "review testing strategy",
+      "backend testing review",
+      "integration tests review",
+      "check unit tests",
+      "review api contracts",
+      "analyze rest design",
+      "check graphql schema",
+      "review websocket logic",
+      "analyze background jobs",
+      "check queue processing",
+      "review microservices",
+      "analyze service communication",
+      "backend code review",
+      "train me on backend",
+      "teach backend patterns",
+      "backend mentor",
+      "guide backend development",
+      "help with backend",
+      "backend advice",
+      "backend consultation",
+      "prepare for frontend handoff",
+      "frontend compatibility check",
+      "full stack review",
+      "api contract for frontend",
+      "backend frontend sync",
+      "coordinate with frontend agent",
+      "work with frontend bot",
+      "collaborate on full stack"
+    ],
+
+    "patterns": [
+      "(?i)(review|analyze|check|audit|assess)\\s+(my\\s+)?(backend|server|api)\\s*(code|logic|design|architecture)?",
+      "(?i)(backend|server|api)\\s+(code\\s+)?(review|analysis|audit|assessment|check)",
+      "(?i)(review|analyze|check|optimize)\\s+(my\\s+)?(database|db|schema|queries|sql)",
+      "(?i)(improve|optimize|refactor)\\s+(my\\s+)?(backend|api|server|database)",
+      "(?i)(security|performance|quality)\\s+(review|audit|check)\\s+(for\\s+)?(backend|api|server)",
+      "(?i)(train|teach|guide|mentor|help)\\s+(me\\s+)?(on|with)\\s+(backend|api|server|database)",
+      "(?i)(backend|api)\\s+(best\\s+)?practices\\s*(review|check|audit)?",
+      "(?i)(prepare|ready|setup)\\s+(for\\s+)?(frontend|full.?stack)\\s*(handoff|integration|sync)",
+      "(?i)(work|collaborate|coordinate)\\s+(with|alongside)\\s+(frontend|ui)\\s*(agent|bot|team)?",
+      "(?i)(check|review|analyze)\\s+(my\\s+)?(routes|controllers|models|services|middleware)",
+      "(?i)(authentication|authorization|auth)\\s+(logic\\s+)?(review|check|audit)",
+      "(?i)(api\\s+)?(contract|specification|spec)\\s+(for\\s+)?(frontend|client)",
+      "(?i)from\\s+the\\s+(inside|code|backend)\\s+(perspective|view|analysis)",
+      "(?i)(internal|deep|thorough)\\s+(code\\s+)?(review|analysis)\\s+(of\\s+)?(backend|api)?"
+    ],
+
+    "context_filters": {
+      "domain_relevance": [
+        "backend development",
+        "server-side programming",
+        "api design",
+        "database architecture",
+        "business logic",
+        "code architecture",
+        "system design"
+      ],
+      "task_relevance": [
+        "code review",
+        "architecture analysis",
+        "performance optimization",
+        "security audit",
+        "quality assessment",
+        "mentorship",
+        "collaboration"
+      ],
+      "negative_filters": [
+        "css styling",
+        "ui design",
+        "frontend only",
+        "visual design",
+        "animation",
+        "layout"
+      ]
+    }
+  },
+
+  "capabilities": [
+    "Backend architecture analysis",
+    "API design review and optimization",
+    "Database schema validation",
+    "Business logic assessment",
+    "Performance bottleneck detection",
+    "Security vulnerability scanning",
+    "Code quality evaluation",
+    "Testing strategy review",
+    "Frontend handoff preparation",
+    "Full-stack compatibility verification",
+    "Inter-agent collaboration protocols"
+  ],
+
+  "collaboration": {
+    "compatible_agents": [
+      "frontend-trainer-cskill",
+      "ui-aesthetic-cskill",
+      "full-stack-coordinator-cskill"
+    ],
+    "handoff_protocols": {
+      "to_frontend": {
+        "provides": ["api_contracts", "data_schemas", "endpoint_documentation", "authentication_flow"],
+        "format": "structured_json"
+      },
+      "from_frontend": {
+        "accepts": ["ui_requirements", "data_display_needs", "user_flow_specs", "component_data_needs"],
+        "format": "structured_json"
+      }
+    },
+    "sync_points": [
+      "api_contract_validation",
+      "data_type_compatibility",
+      "authentication_flow_alignment",
+      "error_response_standardization"
+    ]
+  },
+
+  "metadata": {
+    "author": "Agent-Skill-Creator",
+    "created": "2024",
+    "category": "Development Training",
+    "subcategory": "Backend Development",
+    "complexity": "Complex Skill",
+    "target_audience": "Developers working on backend systems",
+    "prerequisites": ["Basic programming knowledge", "Understanding of web APIs"],
+    "languages_supported": ["Python", "JavaScript/TypeScript", "Go", "Rust", "Java"],
+    "frameworks_supported": ["FastAPI", "Django", "Express", "NestJS", "Spring Boot", "Gin", "Actix"]
+  },
+
+  "usage": {
+    "primary_commands": [
+      "Review my backend architecture",
+      "Analyze this API design",
+      "Check my database schema",
+      "Prepare API contract for frontend handoff"
+    ],
+    "example_workflows": [
+      {
+        "name": "Full Backend Review",
+        "steps": ["Architecture analysis", "API review", "Database validation", "Security check", "Performance assessment"]
+      },
+      {
+        "name": "Frontend Collaboration",
+        "steps": ["Generate API contracts", "Document data schemas", "Prepare handoff report", "Validate compatibility"]
+      }
+    ]
+  },
+
+  "test_queries": [
+    "Review my backend code",
+    "Analyze this API for security issues",
+    "Check if my database schema is properly normalized",
+    "Help me prepare the backend for frontend integration",
+    "Train me on backend best practices",
+    "Work with the frontend agent to ensure compatibility"
+  ]
+}
