@@ -1,0 +1,182 @@
+{
+  "name": "personal-trainer-agent-cskill",
+  "version": "1.0.0",
+  "description": "A meta-skill that analyzes AI agent/bot performance, provides iterative coaching, and integrates with TRL/OpenRL frameworks for reinforcement learning training. Helps developers systematically improve their agents through structured evaluation, prompt optimization, and actual RL fine-tuning.",
+  "author": "Agent-Skill-Creator",
+  "created": "2025-11-30",
+  "category": "agent-improvement",
+  "tags": ["training", "reinforcement-learning", "agent-improvement", "meta-skill", "TRL", "OpenRL", "coaching", "evaluation"],
+
+  "metadata": {
+    "version": "1.0.0",
+    "requires_python": ">=3.9",
+    "features": [
+      "performance-analysis",
+      "trl-integration",
+      "openrl-integration",
+      "prompt-optimization",
+      "rubric-evaluation",
+      "iterative-coaching",
+      "metrics-tracking",
+      "comparative-analysis",
+      "training-session-management"
+    ]
+  },
+
+  "capabilities": {
+    "analyze_agent_outputs": true,
+    "evaluate_with_rubrics": true,
+    "detect_improvement_patterns": true,
+    "generate_training_data": true,
+    "trl_rlhf_training": true,
+    "openrl_integration": true,
+    "prompt_optimization": true,
+    "comparative_evaluation": true,
+    "session_tracking": true,
+    "metrics_visualization": true
+  },
+
+  "activation": {
+    "keywords": [
+      "train my agent",
+      "train my bot",
+      "improve my agent",
+      "improve my bot",
+      "coach my agent",
+      "coach my bot",
+      "evaluate agent performance",
+      "evaluate bot performance",
+      "analyze agent outputs",
+      "analyze bot outputs",
+      "agent training",
+      "bot training",
+      "RL training",
+      "reinforcement learning training",
+      "RLHF training",
+      "TRL training",
+      "OpenRL training",
+      "fine-tune agent",
+      "fine-tune bot",
+      "optimize prompts",
+      "prompt optimization",
+      "agent feedback",
+      "bot feedback",
+      "rating agent outputs",
+      "scoring agent responses",
+      "agent rubric",
+      "performance rubric",
+      "improve agent quality",
+      "improve bot quality",
+      "train up my bot",
+      "train up my agent",
+      "agent performance analysis",
+      "bot performance analysis",
+      "agent improvement suggestions",
+      "bot improvement suggestions",
+      "iterative agent training",
+      "iterative bot training",
+      "agent coaching session",
+      "bot coaching session",
+      "evaluate skill performance",
+      "improve skill quality",
+      "train skill",
+      "skill training",
+      "agent metrics",
+      "bot metrics",
+      "training metrics",
+      "performance tracking",
+      "agent evaluation",
+      "bot evaluation",
+      "comparative evaluation",
+      "A/B test agent",
+      "compare agent versions",
+      "agent benchmarking",
+      "bot benchmarking",
+      "generate training data",
+      "create training dataset",
+      "preference data",
+      "reward modeling",
+      "PPO training",
+      "DPO training",
+      "personal trainer for agent",
+      "personal trainer for bot",
+      "agent personal trainer",
+      "bot personal trainer",
+      "help train my agent",
+      "help improve my bot",
+      "make my agent better",
+      "make my bot better",
+      "agent not performing well",
+      "bot needs improvement",
+      "agent quality issues",
+      "bot quality issues"
+    ],
+
+    "patterns": [
+      "(?i)(train|coach|improve|enhance|optimize)\\s+(my\\s+)?(agent|bot|skill|assistant)",
+      "(?i)(evaluate|analyze|assess|rate|score)\\s+(my\\s+)?(agent|bot|skill)('s)?\\s*(performance|outputs?|responses?|quality)?",
+      "(?i)(RL|RLHF|reinforcement\\s+learning|TRL|OpenRL)\\s+(train|fine-?tune|optimize)",
+      "(?i)(generate|create|build)\\s+(training|preference|reward)\\s+(data|dataset|examples)",
+      "(?i)make\\s+(my\\s+)?(agent|bot|skill)\\s+(better|improve|work\\s+better)",
+      "(?i)(agent|bot|skill)\\s+(is)?\\s*(not|isn't)?\\s*(good|performing|working)\\s*(well|properly|correctly)?",
+      "(?i)(personal\\s+)?trainer\\s+(for\\s+)?(my\\s+)?(agent|bot|skill)",
+      "(?i)(improve|fix|enhance)\\s+(agent|bot|skill)\\s+(quality|performance|outputs?)",
+      "(?i)(iterative|continuous|ongoing)\\s+(training|improvement|coaching)\\s+(for\\s+)?(agent|bot)?",
+      "(?i)(compare|benchmark|A/B\\s+test)\\s+(agent|bot|skill)\\s*(versions?|variants?)?",
+      "(?i)prompt\\s+(optimization|tuning|improvement)\\s+(for\\s+)?(agent|bot)?",
+      "(?i)(rubric|criteria|standards?)\\s+(for\\s+)?(evaluating|rating|scoring)\\s+(agent|bot)?",
+      "(?i)(track|monitor|measure)\\s+(agent|bot|skill)\\s+(metrics|performance|progress)",
+      "(?i)why\\s+(is|isn't)\\s+(my\\s+)?(agent|bot)\\s+(not\\s+)?(working|performing|responding)",
+      "(?i)(help|assist)\\s+(me\\s+)?(train|improve|coach)\\s+(my\\s+)?(agent|bot)"
+    ],
+
+    "negative_patterns": [
+      "(?i)personal\\s+fitness\\s+trainer",
+      "(?i)gym\\s+workout",
+      "(?i)physical\\s+training",
+      "(?i)exercise\\s+routine"
+    ],
+
+    "test_queries": [
+      "Train my website builder bot to create better designs",
+      "Evaluate my marketing agent's performance",
+      "Help me improve my chatbot using RLHF",
+      "Generate training data from my agent's outputs",
+      "My bot isn't producing good results, help me train it",
+      "Set up TRL training for my agent",
+      "Create a rubric to evaluate my assistant's responses",
+      "Compare two versions of my agent",
+      "Track my bot's improvement over time",
+      "Coach my agent to be better at coding tasks"
+    ]
+  },
+
+  "plugins": [
+    {
+      "name": "personal-trainer-agent",
+      "skills": ["./SKILL.md"]
+    }
+  ],
+
+  "dependencies": {
+    "python_packages": [
+      "transformers>=4.35.0",
+      "trl>=0.7.0",
+      "torch>=2.0.0",
+      "datasets>=2.14.0",
+      "peft>=0.6.0",
+      "accelerate>=0.24.0",
+      "numpy>=1.24.0",
+      "pandas>=2.0.0",
+      "matplotlib>=3.7.0",
+      "seaborn>=0.12.0",
+      "scikit-learn>=1.3.0",
+      "rich>=13.0.0"
+    ],
+    "optional_packages": [
+      "openrl>=0.2.0",
+      "wandb>=0.15.0",
+      "tensorboard>=2.14.0"
+    ]
+  }
+}
