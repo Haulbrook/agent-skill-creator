@@ -1,0 +1,250 @@
+{
+  "name": "github-profile-reviewer-cskill",
+  "metadata": {
+    "description": "Professional GitHub profile audit through the lens of recruiters and hiring managers. Reviews profiles, repositories, links, security, and provides cleanup recommendations.",
+    "version": "1.0.0",
+    "author": "Agent-Skill-Creator",
+    "license": "MIT",
+    "category": "developer-tools",
+    "tags": [
+      "github",
+      "profile-review",
+      "career",
+      "security",
+      "cleanup",
+      "professional",
+      "recruiting",
+      "portfolio"
+    ],
+    "features": [
+      "Professional profile assessment",
+      "Repository quality analysis",
+      "Link verification and validation",
+      "Security vulnerability scanning",
+      "Cleanup recommendations",
+      "Naming convention improvements",
+      "Recruiter-lens evaluation",
+      "Non-destructive by default"
+    ],
+    "security_level": "HIGH",
+    "data_handling": "read-only-by-default",
+    "requires_confirmation": true
+  },
+  "plugins": [
+    {
+      "name": "github-profile-reviewer-plugin",
+      "description": "Comprehensive GitHub profile analysis tool that reviews profiles through a professional hiring lens, verifies all links, scans for security issues, and provides actionable cleanup recommendations while maintaining strict user protection protocols.",
+      "source": "./",
+      "skills": [
+        "./"
+      ],
+      "entry_point": "scripts/main.py"
+    }
+  ],
+  "activation": {
+    "keywords": [
+      "github profile review",
+      "github profile audit",
+      "github profile assessment",
+      "review my github",
+      "audit my github",
+      "check my github",
+      "analyze my github",
+      "github cleanup",
+      "clean up github",
+      "cleanup github profile",
+      "github professional review",
+      "github recruiter view",
+      "github hiring manager view",
+      "github first impression",
+      "github portfolio review",
+      "repository review",
+      "repo audit",
+      "repository cleanup",
+      "github security check",
+      "github security scan",
+      "exposed credentials github",
+      "github secrets scan",
+      "broken links github",
+      "verify github links",
+      "link verification github",
+      "github documentation review",
+      "improve github profile",
+      "enhance github profile",
+      "optimize github profile",
+      "github profile tips",
+      "github profile feedback",
+      "github repo organization",
+      "organize github repos",
+      "github repository naming",
+      "rename github repos",
+      "github profile score",
+      "rate my github",
+      "github profile grade",
+      "github professional assessment",
+      "github career review",
+      "github job search",
+      "developer portfolio github",
+      "github presence review",
+      "github online presence",
+      "github visibility",
+      "github discoverability",
+      "github readme review",
+      "profile readme assessment",
+      "github bio review",
+      "github master review",
+      "github expert review",
+      "github consultation",
+      "github profile makeover",
+      "github profile upgrade",
+      "github profile optimization",
+      "github profile polish",
+      "github cleanup recommendations",
+      "remove old github repos",
+      "delete unused repos",
+      "archive github repos",
+      "github duplicate repos",
+      "github fork cleanup",
+      "github contribution review",
+      "github activity analysis",
+      "github commit history",
+      "github professional image",
+      "github developer brand"
+    ],
+    "patterns": [
+      "(?i)(review|audit|check|analyze|assess)\\s+(my\\s+)?github\\s*(profile|account|repos)?",
+      "(?i)github\\s+(profile|account|repos?)\\s+(review|audit|check|analysis|assessment)",
+      "(?i)(clean\\s*up|cleanup|organize|tidy)\\s+(my\\s+)?github",
+      "(?i)github\\s+(cleanup|clean\\s*up|organization)",
+      "(?i)(professional|recruiter|hiring|career)\\s+(view|lens|perspective)\\s+github",
+      "(?i)github\\s+through\\s+(professional|recruiter|hiring)\\s+(eyes|lens|view)",
+      "(?i)(security|secrets?|credentials?)\\s+(scan|check|audit)\\s+(on\\s+)?github",
+      "(?i)github\\s+(security|secrets?)\\s+(scan|check|audit)",
+      "(?i)(broken|dead|invalid)\\s+links?\\s+(on\\s+|in\\s+)?github",
+      "(?i)(verify|check|validate)\\s+(github\\s+)?links",
+      "(?i)(improve|enhance|optimize|upgrade)\\s+(my\\s+)?github\\s*(profile)?",
+      "(?i)github\\s+(improvement|enhancement|optimization)",
+      "(?i)(rate|score|grade)\\s+(my\\s+)?github",
+      "(?i)github\\s+(master|expert)\\s+(review|help|assistance)",
+      "(?i)(remove|delete|archive)\\s+(old|unused|duplicate)\\s+(github\\s+)?repos?",
+      "(?i)github\\s+(portfolio|presence|brand|image)\\s+(review|analysis|assessment)"
+    ],
+    "contextual_filters": {
+      "domain": ["github", "developer", "career", "portfolio", "security"],
+      "task_type": ["review", "audit", "cleanup", "analysis", "improvement"],
+      "entities": ["profile", "repository", "repos", "links", "readme", "credentials"]
+    },
+    "exclusion_patterns": [
+      "(?i)create\\s+(a\\s+)?github\\s+(repo|repository|account)",
+      "(?i)push\\s+to\\s+github",
+      "(?i)github\\s+actions?\\s+(workflow|setup)",
+      "(?i)github\\s+api\\s+(documentation|usage|integration)"
+    ],
+    "confidence_thresholds": {
+      "keyword_match": 0.7,
+      "pattern_match": 0.85,
+      "contextual_match": 0.9
+    }
+  },
+  "capabilities": {
+    "profile_analysis": {
+      "enabled": true,
+      "features": [
+        "first_impression_scoring",
+        "bio_assessment",
+        "photo_evaluation",
+        "social_links_review",
+        "readme_analysis"
+      ]
+    },
+    "repository_analysis": {
+      "enabled": true,
+      "features": [
+        "quality_assessment",
+        "activity_tracking",
+        "documentation_review",
+        "naming_evaluation",
+        "classification"
+      ]
+    },
+    "link_verification": {
+      "enabled": true,
+      "features": [
+        "http_status_check",
+        "ssl_verification",
+        "content_validation",
+        "professional_value_assessment",
+        "redirect_detection"
+      ]
+    },
+    "security_scanning": {
+      "enabled": true,
+      "priority": "highest",
+      "features": [
+        "credential_detection",
+        "secret_scanning",
+        "vulnerability_checking",
+        "sensitive_data_detection",
+        "dependency_audit"
+      ]
+    },
+    "cleanup_recommendations": {
+      "enabled": true,
+      "requires_confirmation": true,
+      "double_confirmation": true,
+      "features": [
+        "removal_candidates",
+        "privatization_candidates",
+        "archive_candidates",
+        "improvement_candidates"
+      ]
+    },
+    "naming_improvements": {
+      "enabled": true,
+      "features": [
+        "clarity_scoring",
+        "convention_checking",
+        "suggestion_generation"
+      ]
+    }
+  },
+  "safety": {
+    "destructive_actions": {
+      "allowed": true,
+      "requires_confirmation": true,
+      "confirmation_count": 2,
+      "confirmation_messages": [
+        "Please confirm you want to {action} for repository '{repo}'",
+        "Are you SURE you want to proceed with {action}? This action {reversibility}. Type 'YES' to confirm."
+      ]
+    },
+    "data_handling": {
+      "stores_credentials": false,
+      "transmits_data": false,
+      "accesses_private_repos": "only_with_permission",
+      "logs_activity": false
+    },
+    "rate_limiting": {
+      "respects_api_limits": true,
+      "graceful_degradation": true,
+      "user_notification": true
+    }
+  },
+  "dependencies": {
+    "python": ">=3.8",
+    "packages": [
+      "requests>=2.28.0",
+      "beautifulsoup4>=4.11.0",
+      "PyGithub>=1.58.0",
+      "python-dotenv>=1.0.0",
+      "rich>=13.0.0",
+      "detect-secrets>=1.4.0"
+    ]
+  },
+  "documentation": {
+    "skill_definition": "SKILL.md",
+    "usage_guide": "references/USAGE_GUIDE.md",
+    "security_protocol": "references/SECURITY_PROTOCOL.md",
+    "api_reference": "references/API_REFERENCE.md"
+  }
+}
