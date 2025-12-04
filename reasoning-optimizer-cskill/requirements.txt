@@ -1,0 +1,5 @@
+# Reasoning Optimizer Dependencies
+# No external dependencies required - uses Python standard library only
+
+# Optional dependencies for enhanced functionality:
+# typing-extensions>=4.0.0  # For enhanced type hints on older Python versions
