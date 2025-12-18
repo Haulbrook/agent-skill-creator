@@ -1,3 +1,18 @@
+---
+name: disney-plant-trainer-cskill
+version: 1.0.0
+description: ML training system for Disney-style landscape plant arrangements
+author: Agent Creator
+tags:
+  - web-scraping
+  - image-processing
+  - machine-learning
+  - plant-classification
+  - landscape-design
+  - disney-style
+  - spatial-analysis
+---
+
 # Disney Plant Trainer Skill
 
 ## Table of Contents
