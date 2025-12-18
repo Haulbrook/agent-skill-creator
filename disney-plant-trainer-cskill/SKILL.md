@@ -1,16 +1,6 @@
 ---
 name: disney-plant-trainer-cskill
-version: 1.0.0
-description: ML training system for Disney-style landscape plant arrangements
-author: Agent Creator
-tags:
-  - web-scraping
-  - image-processing
-  - machine-learning
-  - plant-classification
-  - landscape-design
-  - disney-style
-  - spatial-analysis
+description: Comprehensive ML training system for Disney-style landscape plant arrangements. Scrapes royalty-free plant images from Unsplash, Pexels, and Pixabay. Analyzes spatial relationships including plant spacing, height ratios, layering depth, and color harmony. Trains classifiers for plant species identification and arrangement type detection. Evaluates gardens against Disney landscape design principles like forced perspective, focal points, and seasonal interest. Activates with phrases like scrape plant images, train plant classifier, analyze garden arrangement, disney landscape training, plant spatial relationships.
 ---
 
 # Disney Plant Trainer Skill
