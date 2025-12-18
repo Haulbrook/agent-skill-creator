@@ -1,0 +1,34 @@
+# Disney Plant Trainer - Dependencies
+
+# Core dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+pillow>=10.0.0
+numpy>=1.24.0
+
+# Image processing
+imagehash>=4.3.0
+
+# Optional: Async downloads (recommended for large datasets)
+aiohttp>=3.8.0
+
+# Optional: ML Training with PyTorch (recommended)
+# Uncomment to enable:
+# torch>=2.0.0
+# torchvision>=0.15.0
+
+# Optional: ML Training with TensorFlow
+# Uncomment to enable:
+# tensorflow>=2.13.0
+
+# Optional: ONNX export
+# onnx>=1.14.0
+# onnxruntime>=1.15.0
+
+# Optional: Advanced web scraping
+# trafilatura>=1.6.0
+# lxml>=4.9.0
+
+# Optional: Jupyter notebook support
+# jupyterlab>=4.0.0
+# matplotlib>=3.7.0

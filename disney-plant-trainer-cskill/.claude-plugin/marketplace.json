@@ -1,0 +1,139 @@
+{
+  "name": "disney-plant-trainer-cskill",
+  "owner": {
+    "name": "Agent Creator",
+    "email": "noreply@example.com"
+  },
+
+  "metadata": {
+    "description": "Autonomous web scraper and ML trainer for Disney-style landscape plant arrangements",
+    "version": "1.0.0",
+    "created": "2025-12-18",
+    "language": "en-US",
+    "features": [
+      "web-scraping",
+      "image-downloading",
+      "image-preprocessing",
+      "spatial-analysis",
+      "plant-relationship-detection",
+      "height-analysis",
+      "arrangement-pattern-learning",
+      "disney-style-classification",
+      "model-training",
+      "dataset-management"
+    ]
+  },
+
+  "plugins": [{
+    "name": "disney-plant-trainer-plugin",
+    "description": "Comprehensive Disney-style landscape plant training system. Scrapes royalty-free plant images from botanical websites, Unsplash, Pexels, and Pixabay. Downloads high-resolution photos of flowers, shrubs, trees, hedges, and ground cover. Analyzes spatial relationships between plants including spacing, height ratios, layering depth, color transitions, and focal point placement. Learns Disney landscape principles: forced perspective, hidden Mickeys, themed color palettes, seasonal rotations, and immersive garden design. Trains ML models for plant classification, arrangement scoring, height optimization, and aesthetic evaluation. Generates datasets annotated with plant positions, species identification, and spacing measurements. Perfect for landscape architects, theme park designers, horticulturists, garden planners, and anyone studying professional Disney-quality plant arrangements and botanical garden design patterns.",
+    "source": "./",
+    "strict": false,
+    "skills": ["./"]
+  }],
+
+  "activation": {
+    "keywords": [
+      "scrape plant images",
+      "download plant photos",
+      "collect botanical images",
+      "harvest plant pictures",
+      "train plant classifier",
+      "train plant arrangement model",
+      "learn plant spacing",
+      "analyze plant heights",
+      "disney landscape training",
+      "disney plant patterns",
+      "theme park landscaping",
+      "landscape design training",
+      "plant spatial relationships",
+      "garden arrangement patterns",
+      "flower bed analysis",
+      "shrub placement learning",
+      "tree positioning model",
+      "hedge arrangement training",
+      "ground cover patterns",
+      "layered planting analysis",
+      "forced perspective plants",
+      "color palette landscaping",
+      "seasonal rotation planning",
+      "botanical image dataset",
+      "plant position detection",
+      "species identification training",
+      "spacing measurement analysis",
+      "height ratio learning",
+      "focal point detection",
+      "immersive garden design",
+      "professional landscaping AI",
+      "royalty free plant images",
+      "unsplash plant scraping",
+      "pexels botanical photos",
+      "pixabay garden images",
+      "web scrape flowers",
+      "download shrub photos",
+      "collect tree images",
+      "harvest hedge pictures",
+      "train arrangement model",
+      "learn disney style",
+      "analyze garden layouts",
+      "detect plant patterns",
+      "classify landscape designs",
+      "score plant arrangements",
+      "optimize height placement",
+      "evaluate aesthetic gardens",
+      "annotate plant positions",
+      "measure plant spacing",
+      "identify plant species",
+      "botanical dataset creation",
+      "landscape ML training",
+      "horticulture image analysis",
+      "garden design automation",
+      "theme park plant AI"
+    ],
+
+    "patterns": [
+      "(?i)(scrape|harvest|download|extract|collect|gather)\\s+(plant|flower|botanical|garden|landscape|shrub|tree)\\s+(image|photo|picture|dataset)",
+      "(?i)(train|build|create|develop)\\s+(plant|landscape|garden|arrangement)\\s+(model|classifier|detector|AI|system)",
+      "(?i)(analyze|learn|detect|study)\\s+(plant|garden)\\s+(spacing|height|arrangement|pattern|relationship|position)",
+      "(?i)(disney|theme\\s*park)\\s+(style|landscape|plant|garden|design)\\s+(training|learning|analysis|pattern)",
+      "(?i)(forced\\s*perspective|color\\s*palette|seasonal\\s*rotation)\\s+(plant|landscape|garden)",
+      "(?i)(royalty\\s*free|unsplash|pexels|pixabay)\\s+(plant|botanical|garden|flower)\\s+(image|photo)",
+      "(?i)(spatial|height|spacing)\\s+(relationship|ratio|analysis|measurement)\\s+(plant|garden|landscape)",
+      "(?i)(landscape|garden|botanical)\\s+(architect|designer|horticulturist)\\s+(training|tool|AI)",
+      "(?i)(every|daily|regularly)\\s+(I|we)\\s+(scrape|train|analyze)\\s+(plant|garden|landscape)",
+      "(?i)(professional|quality|immersive)\\s+(landscape|garden|plant)\\s+(design|arrangement|pattern)",
+      "(?i)(flower\\s*bed|ground\\s*cover|hedge|shrub)\\s+(analysis|pattern|arrangement|training)",
+      "(?i)(annotate|label|tag)\\s+(plant|garden)\\s+(position|species|spacing|height)"
+    ]
+  },
+
+  "capabilities": {
+    "web_scraping": true,
+    "image_downloading": true,
+    "image_processing": true,
+    "spatial_analysis": true,
+    "model_training": true,
+    "dataset_management": true,
+    "pattern_detection": true,
+    "arrangement_scoring": true
+  },
+
+  "usage": {
+    "example": "Scrape plant images from Unsplash and train a model to analyze Disney-style garden arrangements",
+    "input_types": ["URL", "plant_species_list", "image_directory", "arrangement_criteria"],
+    "output_types": ["image_dataset", "trained_model", "spatial_analysis_report", "arrangement_scores", "annotation_data"]
+  },
+
+  "test_queries": [
+    "Scrape rose and tulip images from royalty-free sites",
+    "Train a model to recognize Disney landscape patterns",
+    "Analyze plant spacing in this garden photo",
+    "Learn height relationships between shrubs and trees",
+    "Create a dataset of themed garden arrangements",
+    "Detect forced perspective plant placement",
+    "Score this flower bed arrangement",
+    "Identify plant species and positions in landscape photos",
+    "Build a classifier for professional garden designs",
+    "Collect botanical images and analyze spacing patterns"
+  ]
+}
